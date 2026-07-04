@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>InfinityAI Assistant</title>
+  <script type="module" crossorigin src="/assets/popup.js"></script>
+  <link rel="stylesheet" crossorigin href="/assets/popup.css">
+</head>
+<body>
+  <div class="popup-container">
+    <header class="header">
+      <div class="logo-area">
+        <span class="logo-icon">🧠</span>
+        <span class="logo-text">InfinityAI</span>
+      </div>
+    </header>
+
+    <main class="main-content">
+      <div class="page-info-card">
+        <div class="info-label">Current Page</div>
+        <div class="info-title" id="page-title">Loading page...</div>
+        <div class="info-domain" id="page-domain">...</div>
+      </div>
+
+      <button class="btn btn-primary" id="remember-btn">
+        <span class="btn-text" id="remember-text">Remember Page</span>
+        <div class="btn-loader hidden" id="btn-loader"></div>
+      </button>
+
+      <div class="status-container">
+        <span class="status-label">Status</span>
+        <span class="status-badge status-ready" id="status-badge">Ready</span>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <button class="btn btn-secondary" id="dashboard-btn">Open Dashboard</button>
+    </footer>
+  </div>
+
+</body>
+</html>

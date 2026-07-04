@@ -3,10 +3,6 @@ node_modules/
 .pnp
 .pnp.*
 
-# Production / Bundled output
-# Note: If you want users to download the pre-built code directly from GitHub, 
-# you can comment this out to commit the 'dist' folder.
-dist/
 
 # Logs
 npm-debug.log*
