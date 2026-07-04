@@ -1,0 +1,28 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.*
+
+# Production / Bundled output
+# Note: If you want users to download the pre-built code directly from GitHub, 
+# you can comment this out to commit the 'dist' folder.
+dist/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.log
+
+# Editor / IDE settings
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Operating System files
+.DS_Store
+Thumbs.db
